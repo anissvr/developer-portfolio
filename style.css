@@ -119,3 +119,23 @@ main {
 .info-des{
     font-weight: 800;
 }
+
+/* =============what i do styles ===========*/
+.what-i-do{
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px 80px;
+}
+/* ============skil styles ===========*/
+.skil-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 30px 0;
+}
+.skil-box{
+    padding: 27px 20px;
+}
+.skil-title{
+    padding: 18px 0;
+}
