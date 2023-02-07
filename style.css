@@ -104,79 +104,134 @@ main {
     border-radius: 10px;
     padding: 90px 150px;
 }
-.section-title{
+
+.section-title {
     font-size: 30px;
     margin-bottom: 30px;
 }
-.section-des{
+
+.section-des {
     color: #474747;
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: space-between;
     margin: 30px 0;
 }
-.info-des{
+
+.info-des {
     font-weight: 800;
 }
 
 /* =============what i do styles ===========*/
-.what-i-do{
+.what-i-do {
     margin-top: 80px;
     text-align: center;
     padding: 40px 80px;
 }
+
 /* ============skil styles ===========*/
-.skil-container{
+.skil-container {
     display: flex;
     justify-content: space-evenly;
     text-align: left;
     margin: 30px 0;
 }
-.skil-box{
+
+.skil-box {
     padding: 27px 20px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     margin: 0px 10px;
     border-radius: 5px;
 }
-.skil-title{
+
+.skil-title {
     padding: 18px 0;
 }
+
 /*============== resume styles=========== */
-.resume{
+.resume {
     margin: 130px;
-    
+
 }
-.section-title{
+
+.section-title {
     text-align: center;
     margin-bottom: 50px;
 }
-.resume-content{
+
+.resume-content {
     display: flex;
     gap: 30px;
 }
-.resumi-title{
+
+.resumi-title {
     margin: 20px 0;
-    font-size:25px ;
+    font-size: 25px;
     color: #474747;
 }
-.resumi-sub-title{
-    
+
+.resumi-sub-title {
+
     color: #474747;
 }
-.strong{
+
+.strong {
     margin: 10px 0;
     display: block;
 }
-.comon-color{
+
+.comon-color {
     color: #757575;
     font-size: 15px;
     line-height: 23px;
 }
-hr{
+
+hr {
     margin: 30px 0;
 }
-.cv-download{
-   margin: 20px 0;
-   text-align: center;
+
+.cv-download {
+    margin: 50px 0;
+    text-align: center;
+}
+
+/* ======contact styles=========== */
+.contact-section {
+    background: #FFF8F3;
+    padding: 80px 150px;
+}
+
+.contact {
+    display: flex;
+    gap: 120px;
+}
+
+.contact-des {
+    margin: 14px 0;
+    color: #757575;
+}
+
+form {
+    width: 100%;
+    
+}
+
+input {
+    width: 250px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+}
+
+textarea {
+    width: 250px;
+    border: none;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 16px;
 }
